@@ -7,7 +7,8 @@
 
 unsigned int convert(char input[], int len);
 
-int main(){
+int main()
+{
 	int c;
 	int inputLen = 0;
 	char hexinput[MAXLEN];
@@ -25,7 +26,8 @@ int main(){
 	return 0;
 }
 
-unsigned int convert(char input[], int len){
+unsigned int convert(char input[], int len)
+{
 	unsigned int x = 0;
 	int digit = 0;
 	for(int i=len-1; i>=0; i--){
